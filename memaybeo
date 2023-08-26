@@ -1,0 +1,891 @@
+-- TUAN ANH CO CON CAC TO DUNG
+
+local idk = Instance.new("ScreenGui")
+local Nerdie = Instance.new("Frame")
+local uicorner = Instance.new("UICorner")
+local bad = Instance.new("ScrollingFrame")
+local corner = Instance.new("UICorner")
+local source = Instance.new("TextBox")
+local outputfake = Instance.new("TextLabel")
+local corner_2 = Instance.new("UICorner")
+local execute = Instance.new("TextButton")
+local corner_3 = Instance.new("UICorner")
+local clear = Instance.new("TextButton")
+local corner_4 = Instance.new("UICorner")
+local back = Instance.new("TextButton")
+local corner_5 = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
+local ver = Instance.new("TextLabel")
+local logsopen = Instance.new("TextButton")
+local corner_6 = Instance.new("UICorner")
+local PickScript = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local aaaa = Instance.new("ImageButton")
+local uicorner_2 = Instance.new("UICorner")
+local uicorner_3 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local uicorner_4 = Instance.new("UICorner")
+local key = Instance.new("TextBox")
+local uicorner_5 = Instance.new("UICorner")
+local makingsure = Instance.new("TextLabel")
+local uicorner_6 = Instance.new("UICorner")
+local akey = Instance.new("TextLabel")
+local keycorrect = Instance.new("TextButton")
+local uicorner_7 = Instance.new("UICorner")
+local ver_2 = Instance.new("TextLabel")
+local logs = Instance.new("Frame")
+local uicorner_8 = Instance.new("UICorner")
+local title_2 = Instance.new("TextLabel")
+local ver_3 = Instance.new("TextLabel")
+local _1 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local _3 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local corner_7 = Instance.new("UICorner")
+
+print("made by")
+
+--Properties:
+
+idk.Name = "idk"
+idk.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+idk.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+idk.ResetOnSpawn = false
+
+Nerdie.Name = "Nerdie"
+Nerdie.Parent = idk
+Nerdie.AnchorPoint = Vector2.new(0.5, 0.5)
+Nerdie.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Nerdie.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nerdie.BorderSizePixel = 0
+Nerdie.ClipsDescendants = true
+Nerdie.Position = UDim2.new(0.467046857, 0, 0.415336639, 0)
+Nerdie.Size = UDim2.new(0, 537, 0, 271)
+Nerdie.Visible = false
+
+uicorner.CornerRadius = UDim.new(0.100000001, 8)
+uicorner.Name = "uicorner"
+uicorner.Parent = Nerdie
+
+bad.Name = "bad"
+bad.Parent = Nerdie
+bad.Active = true
+bad.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bad.BackgroundTransparency = 1.000
+bad.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bad.BorderSizePixel = 0
+bad.Position = UDim2.new(0.0502793305, 0, 0.177121773, 0)
+bad.Size = UDim2.new(0, 351, 0, 175)
+bad.CanvasSize = UDim2.new(0, 0, 30, 0)
+
+corner.CornerRadius = UDim.new(0.100000001, 8)
+corner.Name = "corner"
+corner.Parent = bad
+
+source.Name = "source"
+source.Parent = bad
+source.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+source.BorderColor3 = Color3.fromRGB(0, 0, 0)
+source.BorderSizePixel = 0
+source.Size = UDim2.new(0, 351, 100, 0)
+source.ClearTextOnFocus = false
+source.Font = Enum.Font.SourceSans
+source.MultiLine = true
+source.Text = "-- Literally made by Nerdie (or named carlreal)"
+source.TextColor3 = Color3.fromRGB(255, 255, 255)
+source.TextSize = 16.000
+source.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+source.TextXAlignment = Enum.TextXAlignment.Left
+source.TextYAlignment = Enum.TextYAlignment.Top
+
+outputfake.Name = "outputfake"
+outputfake.Parent = Nerdie
+outputfake.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+outputfake.BorderColor3 = Color3.fromRGB(0, 0, 0)
+outputfake.BorderSizePixel = 0
+outputfake.Position = UDim2.new(0.715083778, 0, 0.177121773, 0)
+outputfake.Size = UDim2.new(0, 136, 0, 173)
+outputfake.Font = Enum.Font.SourceSans
+outputfake.Text = "[[--Output : Havent updated yet!"
+outputfake.TextColor3 = Color3.fromRGB(255, 255, 255)
+outputfake.TextSize = 14.000
+outputfake.TextWrapped = true
+outputfake.TextXAlignment = Enum.TextXAlignment.Left
+outputfake.TextYAlignment = Enum.TextYAlignment.Top
+
+corner_2.CornerRadius = UDim.new(0.100000001, 8)
+corner_2.Name = "corner"
+corner_2.Parent = outputfake
+
+execute.Name = "execute"
+execute.Parent = Nerdie
+execute.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execute.BorderSizePixel = 0
+execute.Position = UDim2.new(0.0502793305, 0, 0.856088579, 0)
+execute.Size = UDim2.new(0, 88, 0, 28)
+execute.Font = Enum.Font.Ubuntu
+execute.Text = "EXECUTE"
+execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+execute.TextSize = 14.000
+execute.TextWrapped = true
+
+corner_3.CornerRadius = UDim.new(0.100000001, 8)
+corner_3.Name = "corner"
+corner_3.Parent = execute
+
+clear.Name = "clear"
+clear.Parent = Nerdie
+clear.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clear.BorderSizePixel = 0
+clear.Position = UDim2.new(0.262569845, 0, 0.856088579, 0)
+clear.Size = UDim2.new(0, 92, 0, 28)
+clear.Font = Enum.Font.SourceSans
+clear.Text = "CLEAR"
+clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+clear.TextSize = 16.000
+clear.TextWrapped = true
+
+corner_4.CornerRadius = UDim.new(0.100000001, 8)
+corner_4.Name = "corner"
+corner_4.Parent = clear
+
+back.Name = "back"
+back.Parent = Nerdie
+back.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+back.BorderColor3 = Color3.fromRGB(0, 0, 0)
+back.BorderSizePixel = 0
+back.Position = UDim2.new(0.759776533, 0, 0.856088579, 0)
+back.Size = UDim2.new(0, 88, 0, 28)
+back.Font = Enum.Font.SourceSans
+back.Text = "BACK"
+back.TextColor3 = Color3.fromRGB(255, 255, 255)
+back.TextSize = 16.000
+
+corner_5.CornerRadius = UDim.new(0.100000001, 8)
+corner_5.Name = "corner"
+corner_5.Parent = back
+
+title.Name = "title"
+title.Parent = Nerdie
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.314711362, 0, 0, 0)
+title.Size = UDim2.new(0, 191, 0, 42)
+title.Font = Enum.Font.Ubuntu
+title.Text = "Nerdie"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+ver.Name = "ver"
+ver.Parent = Nerdie
+ver.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ver.BackgroundTransparency = 1.000
+ver.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ver.BorderSizePixel = 0
+ver.Position = UDim2.new(0.5549348, 0, 0.0959409624, 0)
+ver.Size = UDim2.new(0, 134, 0, 16)
+ver.Font = Enum.Font.Ubuntu
+ver.Text = "Version 1.2.0"
+ver.TextColor3 = Color3.fromRGB(255, 255, 255)
+ver.TextScaled = true
+ver.TextSize = 14.000
+ver.TextWrapped = true
+
+logsopen.Name = "logsopen"
+logsopen.Parent = Nerdie
+logsopen.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+logsopen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+logsopen.BorderSizePixel = 0
+logsopen.Position = UDim2.new(0.540037215, 0, 0.856088579, 0)
+logsopen.Size = UDim2.new(0, 88, 0, 28)
+logsopen.Font = Enum.Font.Ubuntu
+logsopen.Text = "LOGS"
+logsopen.TextColor3 = Color3.fromRGB(255, 255, 255)
+logsopen.TextSize = 14.000
+logsopen.TextWrapped = true
+
+corner_6.CornerRadius = UDim.new(0.100000001, 8)
+corner_6.Name = "corner"
+corner_6.Parent = logsopen
+
+PickScript.Name = "PickScript"
+PickScript.Parent = idk
+PickScript.AnchorPoint = Vector2.new(0.5, 0.5)
+PickScript.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+PickScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PickScript.BorderSizePixel = 0
+PickScript.ClipsDescendants = true
+PickScript.Position = UDim2.new(0.49999997, 0, 0.499287248, 0)
+PickScript.Size = UDim2.new(0, 457, 0, 247)
+
+TextLabel.Parent = PickScript
+TextLabel.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.356673956, 0, 0.19838056, 0)
+TextLabel.Size = UDim2.new(0, 279, 0, 149)
+TextLabel.Visible = false
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Nerdie Version 1.1.7"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+aaaa.Name = "aaaa"
+aaaa.Parent = PickScript
+aaaa.AnchorPoint = Vector2.new(0.5, 0.5)
+aaaa.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+aaaa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aaaa.BorderSizePixel = 0
+aaaa.Position = UDim2.new(0.19037199, 0, 0.558704436, 0)
+aaaa.Size = UDim2.new(0, 91, 0, 92)
+aaaa.Visible = false
+aaaa.Image = "http://www.roblox.com/asset/?id=5173558738"
+
+uicorner_2.CornerRadius = UDim.new(0.100000001, 8)
+uicorner_2.Name = "uicorner"
+uicorner_2.Parent = aaaa
+
+uicorner_3.CornerRadius = UDim.new(0.100000001, 8)
+uicorner_3.Name = "uicorner"
+uicorner_3.Parent = PickScript
+
+TextButton.Parent = PickScript
+TextButton.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.897155344, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 47, 0, 50)
+TextButton.ZIndex = 2
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+uicorner_4.CornerRadius = UDim.new(0.100000001, 8)
+uicorner_4.Name = "uicorner"
+uicorner_4.Parent = TextButton
+
+key.Name = "key"
+key.Parent = PickScript
+key.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+key.BorderColor3 = Color3.fromRGB(0, 0, 0)
+key.BorderSizePixel = 0
+key.Position = UDim2.new(0.0437636748, 0, 0.744939268, 0)
+key.Size = UDim2.new(0, 251, 0, 50)
+key.Font = Enum.Font.Ubuntu
+key.Text = ""
+key.TextColor3 = Color3.fromRGB(255, 255, 255)
+key.TextScaled = true
+key.TextSize = 14.000
+key.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+key.TextWrapped = true
+
+uicorner_5.CornerRadius = UDim.new(0.100000001, 8)
+uicorner_5.Name = "uicorner"
+uicorner_5.Parent = key
+
+makingsure.Name = "makingsure"
+makingsure.Parent = PickScript
+makingsure.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+makingsure.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makingsure.BorderSizePixel = 0
+makingsure.Position = UDim2.new(0.0437636748, 0, 0.275303632, 0)
+makingsure.Size = UDim2.new(0, 415, 0, 110)
+makingsure.Font = Enum.Font.Ubuntu
+makingsure.Text = "We just making sure that you're not a Bot that trying to break our script!"
+makingsure.TextColor3 = Color3.fromRGB(255, 255, 255)
+makingsure.TextSize = 35.000
+makingsure.TextWrapped = true
+makingsure.TextXAlignment = Enum.TextXAlignment.Left
+makingsure.TextYAlignment = Enum.TextYAlignment.Top
+
+uicorner_6.CornerRadius = UDim.new(0.100000001, 8)
+uicorner_6.Name = "uicorner"
+uicorner_6.Parent = makingsure
+
+akey.Name = "akey"
+akey.Parent = PickScript
+akey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+akey.BackgroundTransparency = 1.000
+akey.BorderColor3 = Color3.fromRGB(0, 0, 0)
+akey.BorderSizePixel = 0
+akey.Position = UDim2.new(0.122538291, 0, 0, 0)
+akey.Size = UDim2.new(0, 336, 0, 50)
+akey.Font = Enum.Font.Ubuntu
+akey.Text = "Key"
+akey.TextColor3 = Color3.fromRGB(255, 255, 255)
+akey.TextScaled = true
+akey.TextSize = 14.000
+akey.TextWrapped = true
+
+keycorrect.Name = "keycorrect"
+keycorrect.Parent = PickScript
+keycorrect.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+keycorrect.BorderColor3 = Color3.fromRGB(0, 0, 0)
+keycorrect.BorderSizePixel = 0
+keycorrect.Position = UDim2.new(0.612691343, 0, 0.744939268, 0)
+keycorrect.Size = UDim2.new(0, 154, 0, 50)
+keycorrect.Font = Enum.Font.Ubuntu
+keycorrect.Text = "Enter"
+keycorrect.TextColor3 = Color3.fromRGB(255, 255, 255)
+keycorrect.TextScaled = true
+keycorrect.TextSize = 14.000
+keycorrect.TextWrapped = true
+
+uicorner_7.CornerRadius = UDim.new(0.100000001, 8)
+uicorner_7.Name = "uicorner"
+uicorner_7.Parent = keycorrect
+
+ver_2.Name = "ver"
+ver_2.Parent = PickScript
+ver_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ver_2.BackgroundTransparency = 1.000
+ver_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ver_2.BorderSizePixel = 0
+ver_2.Position = UDim2.new(0.509867251, 0, 0.136426792, 0)
+ver_2.Size = UDim2.new(0, 134, 0, 16)
+ver_2.Font = Enum.Font.Ubuntu
+ver_2.Text = "Version 1.2.0"
+ver_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ver_2.TextScaled = true
+ver_2.TextSize = 14.000
+ver_2.TextWrapped = true
+
+logs.Name = "logs"
+logs.Parent = idk
+logs.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+logs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+logs.BorderSizePixel = 0
+logs.Position = UDim2.new(0.652724981, 0, 0.256790131, 0)
+logs.Size = UDim2.new(0, 214, 0, 263)
+logs.Visible = false
+
+uicorner_8.CornerRadius = UDim.new(0.100000001, 8)
+uicorner_8.Name = "uicorner"
+uicorner_8.Parent = logs
+
+title_2.Name = "title"
+title_2.Parent = logs
+title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_2.BackgroundTransparency = 1.000
+title_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_2.BorderSizePixel = 0
+title_2.Position = UDim2.new(0.0530292839, 0, 0.0190114062, 0)
+title_2.Size = UDim2.new(0, 191, 0, 42)
+title_2.Font = Enum.Font.Ubuntu
+title_2.Text = "Nerdie"
+title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_2.TextScaled = true
+title_2.TextSize = 14.000
+title_2.TextWrapped = true
+
+ver_3.Name = "ver"
+ver_3.Parent = logs
+ver_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ver_3.BackgroundTransparency = 1.000
+ver_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ver_3.BorderSizePixel = 0
+ver_3.Position = UDim2.new(0.182739258, 0, 0.152624443, 0)
+ver_3.Size = UDim2.new(0, 134, 0, 16)
+ver_3.Font = Enum.Font.Ubuntu
+ver_3.Text = "Patch and News note"
+ver_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ver_3.TextScaled = true
+ver_3.TextSize = 14.000
+ver_3.TextWrapped = true
+
+_1.Name = "1"
+_1.Parent = logs
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.0327102803, 0, 0.224334598, 0)
+_1.Size = UDim2.new(0, 200, 0, 193)
+_1.Font = Enum.Font.Ubuntu
+_1.Text = "Added Key System!"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextSize = 14.000
+_1.TextXAlignment = Enum.TextXAlignment.Left
+_1.TextYAlignment = Enum.TextYAlignment.Top
+
+_2.Name = "2"
+_2.Parent = logs
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0.0327102803, 0, 0.281368822, 0)
+_2.Size = UDim2.new(0, 200, 0, 189)
+_2.Font = Enum.Font.Ubuntu
+_2.Text = "Patched Open Animation"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextSize = 14.000
+_2.TextXAlignment = Enum.TextXAlignment.Left
+_2.TextYAlignment = Enum.TextYAlignment.Top
+
+_3.Name = "3"
+_3.Parent = logs
+_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3.BackgroundTransparency = 1.000
+_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_3.BorderSizePixel = 0
+_3.Position = UDim2.new(0.0327102803, 0, 0.342205316, 0)
+_3.Size = UDim2.new(0, 200, 0, 189)
+_3.Font = Enum.Font.Ubuntu
+_3.Text = "Haven't added the Close Animation so stay tuned!"
+_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3.TextSize = 14.000
+_3.TextWrapped = true
+_3.TextXAlignment = Enum.TextXAlignment.Left
+_3.TextYAlignment = Enum.TextYAlignment.Top
+
+TextButton_2.Parent = logs
+TextButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.5, 0, 0.863117874, 0)
+TextButton_2.Size = UDim2.new(0, 188, 0, 50)
+TextButton_2.Font = Enum.Font.Ubuntu
+TextButton_2.Text = "Back"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+corner_7.CornerRadius = UDim.new(0.100000001, 8)
+corner_7.Name = "corner"
+corner_7.Parent = TextButton_2
+
+-- Scripts:
+
+local function UHZEBSQ_fake_script() -- execute.but0 
+	local script = Instance.new('LocalScript', execute)
+
+	local startSize = UDim2.new(0, 104,0, 28)
+	local hoverSize = UDim2.new(0, 88,0, 28)
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(startSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(hoverSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+end
+coroutine.wrap(UHZEBSQ_fake_script)()
+local function ELXG_fake_script() -- execute.executescript 
+	local script = Instance.new('LocalScript', execute)
+
+	local v = script.Parent.Parent.bad.source
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(v.Text)()
+	end)
+end
+coroutine.wrap(ELXG_fake_script)()
+local function EERN_fake_script() -- clear.but 
+	local script = Instance.new('LocalScript', clear)
+
+	local startSize = UDim2.new(0, 104,0, 28)
+	local hoverSize = UDim2.new(0, 88,0, 28)
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(startSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(hoverSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+end
+coroutine.wrap(EERN_fake_script)()
+local function UBYORN_fake_script() -- clear.clearscript 
+	local script = Instance.new('LocalScript', clear)
+
+	local v = script.Parent.Parent.bad.source
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		v.Text = ""
+	end)
+end
+coroutine.wrap(UBYORN_fake_script)()
+local function PKOJEH_fake_script() -- back.but2 
+	local script = Instance.new('LocalScript', back)
+
+	local startSize = UDim2.new(0, 104,0, 28)
+	local hoverSize = UDim2.new(0, 88,0, 28)
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(startSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(hoverSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+end
+coroutine.wrap(PKOJEH_fake_script)()
+local function IGLVYX_fake_script() -- back.LocalScript 
+	local script = Instance.new('LocalScript', back)
+
+	local m = script.Parent.Parent.Parent.PickScript
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.bad.Visible = false
+		script.Parent.Parent.bad.source.Visible = false
+		script.Parent.Visible = false
+		script.Parent.Parent.clear.Visible = false
+		script.Parent.Parent.execute.Visible = false
+		script.Parent.Parent.outputfake.Visible = false
+		script.Parent.Parent.title.Visible = false
+		script.Parent.Parent.ver.Visible = false
+		script.Parent.Parent.logsopen.Visible = false
+		
+		local object = script.Parent.Parent
+		object.Position = UDim2.new(0.5, 0, 0.5, 0)
+	
+		--When the game starts, it will wait 2 seconds, then make the tween.
+		object:TweenSize(UDim2.new(0, -3, 0, -3), Enum.EasingDirection.Out, Enum.EasingStyle.Quint)
+		wait(1)
+		script.Parent.Parent.Visible = false
+		
+		m.aaaa.Visible = true
+		m.TextButton.Visible = true
+		m.TextLabel.Visible = true
+		m.Size = UDim2.new(0, 457,0, 247)
+		
+		m.Visible = true
+	end)
+end
+coroutine.wrap(IGLVYX_fake_script)()
+local function JQSXVIK_fake_script() -- Nerdie.load 
+	local script = Instance.new('LocalScript', Nerdie)
+
+	if script.Parent.Visible == true then
+		local object = script.Parent.Parent
+		object.Position = UDim2.new(0.5, 0, 0.5, 0)
+	
+		--When the game starts, it will wait 2 seconds, then make the tween.
+		wait(1)
+		object:TweenSize(UDim2.new(0, -3, 0, -3), Enum.EasingDirection.Out, Enum.EasingStyle.Quint)
+	end
+end
+coroutine.wrap(JQSXVIK_fake_script)()
+local function TKYS_fake_script() -- Nerdie.print 
+	local script = Instance.new('LocalScript', Nerdie)
+
+	local function CUDAI2MET()
+		print("New Furture.")
+		print("UI darker Colour")
+		print("New Position for the Script Opening!")
+		print("Haven't added the Close's Animation so stay patient!")
+		print("Thanks for using my script!")
+		print("Later will have Credits UI, Save file and Open files!")
+		print("neither it will takes a long time so anyways stay patient.")
+		print("{Made by Tuan Anh (Nerdie), Nerdie on Top!}")
+	end
+	
+	-- New Furture.
+	-- UI darker Colour
+	-- New Position for the Script Opening!
+	-- Haven't added the Close's Animation so stay patient!
+	-- Thanks for using my script!
+	-- Later will have Credits UI, Save file and Open files!
+	-- neither it will takes a long time so anyways stay patient.
+	-- Made by Tuan Anh (Nerdie), Nerdie on Top!
+	CUDAI2MET()
+	
+end
+coroutine.wrap(TKYS_fake_script)()
+local function FWUIV_fake_script() -- logsopen.but0 
+	local script = Instance.new('LocalScript', logsopen)
+
+	local startSize = UDim2.new(0, 104,0, 28)
+	local hoverSize = UDim2.new(0, 88,0, 28)
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(startSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(hoverSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+end
+coroutine.wrap(FWUIV_fake_script)()
+local function XDMWTZ_fake_script() -- logsopen.executescript 
+	local script = Instance.new('LocalScript', logsopen)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.logs.Visible = true
+	end)
+end
+coroutine.wrap(XDMWTZ_fake_script)()
+local function XODD_fake_script() -- Nerdie.drag 
+	local script = Instance.new('LocalScript', Nerdie)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(XODD_fake_script)()
+-- idk.LocalScript is disabled.
+-- aaaa.but is disabled.
+local function CNKB_fake_script() -- aaaa.big button 
+	local script = Instance.new('LocalScript', aaaa)
+
+	local startsize = UDim2.new(script.Parent.Size.Width.Scale * 0, 91, script.Parent.Size.Height.Scale * 0, 92)
+	
+	local hoversize = UDim2.new(script.Parent.Size.Width.Scale * 0, 119, script.Parent.Size.Height.Scale * 0, 119) --change 1.05 to whatever works for you
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(hoversize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(startsize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+	
+	-- {0, 113},{0, 93}
+	-- {0, 82},{0, 76}
+	-- {0, 82},{0, 76}
+end
+coroutine.wrap(CNKB_fake_script)()
+local function VFXGSOV_fake_script() -- aaaa.LocalScript 
+	local script = Instance.new('LocalScript', aaaa)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local a = script.Parent.Parent.TextLabel
+		a.Visible = false
+		script.Parent.Visible = false
+		script.Parent.Parent.TextButton.Visible = false
+		
+		local object = script.Parent.Parent
+		object.Position = UDim2.new(0.5, 0, 0.5, 0)
+	
+		--When the game starts, it will wait 2 seconds, then make the tween.
+		object:TweenSize(UDim2.new(0, -3, 0, -3), Enum.EasingDirection.Out, Enum.EasingStyle.Quint)
+		wait(1)
+		-- THE VISIBLE CLAN
+		script.Parent.Parent.Parent.Nerdie.Visible = true
+		script.Parent.Parent.Parent.Nerdie.Size = UDim2.new(0, 537,0, 271)
+		script.Parent.Parent.Parent.Nerdie.bad.Visible = true
+		script.Parent.Parent.Parent.Nerdie.bad.source.Visible = true
+		script.Parent.Parent.Parent.Nerdie.clear.Visible = true
+		script.Parent.Parent.Parent.Nerdie.execute.Visible = true
+		script.Parent.Parent.Parent.Nerdie.outputfake.Visible = true
+		script.Parent.Parent.Parent.Nerdie.title.Visible = true
+		script.Parent.Parent.Parent.Nerdie.ver.Visible = true
+		script.Parent.Parent.Parent.Nerdie.back.Visible = true
+		
+		script.Parent.Parent.Visible = false
+	end)
+	
+	local function MADE_BY_TUANANH()
+		print("SAY HI TO MY SCRIPT!!")
+		print("TUAN ANH ON TOP!")
+		print("NERDIE IS ON THE LEADER?!?!")
+		print("You didn't have to pay for this so say thanks!")
+	end
+	
+	MADE_BY_TUANANH()
+end
+coroutine.wrap(VFXGSOV_fake_script)()
+local function IYUVKRO_fake_script() -- PickScript.drag 
+	local script = Instance.new('LocalScript', PickScript)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(IYUVKRO_fake_script)()
+local function XAAWLE_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(XAAWLE_fake_script)()
+local function MAQIPOJ_fake_script() -- keycorrect.LocalScript 
+	local script = Instance.new('LocalScript', keycorrect)
+
+	
+	if script.Parent.Parent.key.Text == "god" or "God" or "turanc" or "nerdie" or "signupredir on top" then
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Visible = false
+			script.Parent.Parent.key.Visible = false
+			script.Parent.Parent.akey.Visible = false
+			script.Parent.Parent.makingsure.Visible = false
+			script.Parent.Parent.ver.Visible = false
+			script.Parent.Parent.TextButton.Visible = true
+			script.Parent.Parent.TextLabel.Visible = true
+			script.Parent.Parent.aaaa.Visible = true
+		end)
+	end
+end
+coroutine.wrap(MAQIPOJ_fake_script)()
+local function YCWES_fake_script() -- keycorrect.big button 
+	local script = Instance.new('LocalScript', keycorrect)
+
+	local startSize = UDim2.new(0, 169,0, 50)
+	local hoverSize = UDim2.new(0, 154,0, 50)
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(startSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(hoverSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+end
+coroutine.wrap(YCWES_fake_script)()
+local function IBIXXT_fake_script() -- TextButton_2.but2 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local startSize = UDim2.new(0, 188,0, 80)
+	local hoverSize = UDim2.new(0, 188,0, 50)
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(startSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(hoverSize,Enum.EasingDirection.Out,Enum.EasingStyle.Sine,.25,true)
+	end)
+end
+coroutine.wrap(IBIXXT_fake_script)()
+local function ZOMTF_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(ZOMTF_fake_script)()
+local function VVENW_fake_script() -- logs.drag 
+	local script = Instance.new('LocalScript', logs)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(VVENW_fake_script)()
