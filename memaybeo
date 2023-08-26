@@ -43,7 +43,7 @@ local _3 = Instance.new("TextLabel")
 local TextButton_2 = Instance.new("TextButton")
 local corner_7 = Instance.new("UICorner")
 
-print("made by")
+print("made by Nerdie (or you can call him carlreal)")
 
 --Properties:
 
